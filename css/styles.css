@@ -28,6 +28,11 @@
      
      
   }
+  .team-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /*logo*/
   .logo {
     text-decoration: none;
@@ -217,16 +222,16 @@ text-transform: uppercase;
 
 
   }
-  /*
+  
   .image-section{
     display: flex;
-    flex-direction: row;
+  
     align-items: center;
-    justify-content:left;
+    justify-content:left;}
     
     
 
-  }*/
+  
 
   /*qualities*/
   
