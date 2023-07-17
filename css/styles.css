@@ -77,6 +77,7 @@
   .footer-location{list-style: none;}
   .adress{list-style: none;}
   .footer-global{list-style: none;}
+  .photos{list-style:none;}
   
   /*Links*/
   .link1 {
@@ -214,7 +215,7 @@ text-transform: uppercase;
 
     
   }
-  .section{ width: 1600px;
+  .section{ 
     
     
     padding: 94px 0 0 0;
@@ -227,9 +228,14 @@ text-transform: uppercase;
     display: flex;
   
     align-items: center;
-    justify-content:left;}
+    justify-content:center;}
     
-    
+    .photos{
+      display:flex;
+      align-items: center;
+      justify-content:center;
+
+    }
 
   
 
@@ -351,12 +357,7 @@ letter-spacing: 0.42px;
   
   
   /*What we do*/
-  .images{
-    margin-top:47px;
-   margin-right: 25px;
  
-}
-
 
   .title-what-we-do {
     font-weight: 700;
@@ -364,6 +365,7 @@ letter-spacing: 0.42px;
     line-height: 1.18;
     letter-spacing: 3%;
     text-align: center;
+   
    
   }
   /*Our Team*/
