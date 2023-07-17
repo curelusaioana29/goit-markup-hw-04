@@ -480,8 +480,8 @@ ul {
   flex-shrink: 0;
   margin: 30px;
   display: grid;
-  grid-template-columns: 3 (1fr);
-  grid-template-rows: 3 (1fr);
+  grid-template-columns: 3(1fr);
+  grid-template-rows: 3(1fr);
 
   border: 1px solid #eee;
   background: #fff;
