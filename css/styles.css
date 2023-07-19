@@ -44,6 +44,7 @@ body {
   
 }
 
+
 .blue {
   color: var(--accent-color);
 }
@@ -254,21 +255,15 @@ flex-shrink: 0;
   
 }
 
-.container-head-1 > h1 {
-  display: flex;
-  justify-content: center;
- 
-  flex-direction: column;
-  flex-shrink: 0;
-  align-items: center;
-  color: var(--title-color);
-
+.container-head-1 .title-big{
+  width: 696px;
+  color: #FFF;
   text-align: center;
-  font-size: 44px;
   font-family: Roboto;
+  font-size: 44px;
   font-style: normal;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 60px; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
